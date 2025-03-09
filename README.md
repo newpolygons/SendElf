@@ -4,8 +4,10 @@
 
 # Usage
 
-Place PS5 ip, host, and filepath into the script then run it. Will likely implement -f -p -i as arguments in the near future.
+Place PS5 ip, host, and filepath into the script then run it.
+
+If you are having issues with the socket implementation you can now run python3 sendPS5.py -nc to send the file through netcat.
 
 # 5.50
 
-My machine is currently on 5.50 I was experincing an issue where after sending nothing would happen rebooting PS5 and trying again resolved the issue. 
+My machine is currently on 5.50 I was experincing an issue where after sending the file nothing would happen. Rebooting PS5 and trying again resolved the issue. 
